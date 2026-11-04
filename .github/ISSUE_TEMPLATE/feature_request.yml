@@ -1,0 +1,41 @@
+name: Feature request
+description: Propose a focused improvement to MaintainerOS
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Maintainer problem
+      description: What recurring maintenance problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should a maintainer be able to do after this change?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Proposed workflow
+      description: Describe the smallest useful workflow. Avoid prescribing implementation prematurely.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and trade-offs
+    validations:
+      required: false
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Project principles
+      options:
+        - label: This proposal keeps maintainers in control of consequential actions.
+          required: true
+        - label: This proposal does not require a paid AI provider for core functionality.
+          required: false
