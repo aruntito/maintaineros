@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability reporting
+    url: https://github.com/aruntito/maintaineros/security/advisories/new
+    about: Report security vulnerabilities privately. Do not use public issues.
+  - name: Project roadmap
+    url: https://github.com/aruntito/maintaineros/blob/main/ROADMAP.md
+    about: Review current project priorities before proposing new work.
