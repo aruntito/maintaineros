@@ -35,7 +35,7 @@ MaintainerOS aims to provide one maintainer-controlled view of that work while k
 | Contributor experience | First-contribution context and onboarding | P1 |
 | AI assistance | Optional summaries and recommendations | P1 |
 
-Read [PRD.md](PRD.md), [ARCHITECTURE.md](ARCHITECTURE.md), and [ROADMAP.md](ROADMAP.md) for details.
+Read [PRD.md](PRD.md), [ARCHITECTURE.md](ARCHITECTURE.md), [ROADMAP.md](ROADMAP.md), and [PROGRAM_READINESS.md](PROGRAM_READINESS.md) for product direction, execution milestones, adoption strategy, and open-source program readiness.
 
 ## Intended technology
 
